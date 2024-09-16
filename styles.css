@@ -1,0 +1,81 @@
+/* Importing Roboto FOnt */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Universal styles */
+*{
+    font-family: 'Roboto', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for the header */
+.header{
+    padding: 25px 400px 0px 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    height: 60px;
+   
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    
+}
+
+.right-links{
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+/* Styles for signup section */
+.signup-section{
+    background-color: #1F2937;
+    padding: 0px 400px 0px 400px;
+    height: 500px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-text h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.main-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-text button{
+    width: 80px;
+    background-color: #3882f6;
+    border: none;
+    height: 30px;
+}
+
+.image-section{
+
+    height:227px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    background-color: gray;
+}
