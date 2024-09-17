@@ -35,7 +35,7 @@
     
 }
 
-/* Styles for signup section */
+/* Styles for this website is awesome section */
 .signup-section{
     background-color: #1F2937;
     padding: 0px 400px 0px 400px;
@@ -63,10 +63,14 @@
 }
 
 .main-text button{
-    width: 80px;
+    width: 120px;
     background-color: #3882f6;
     border: none;
     height: 30px;
+    color: #f9faf8;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .image-section{
@@ -78,4 +82,111 @@
     justify-content: center;
     color: #e5e7eb;
     background-color: gray;
+    
+}
+
+/* Some random information section */
+.random-info{
+    height: 500px;
+    /* background-color: black; */
+}
+
+.random-info h1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 50px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 80px;
+}
+
+.box{
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.container p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Styles for quote section */
+.quote{
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quote .italic{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote .bold{
+    font-weight: 900;
+    padding-left: 550px;
+    font-size: 20px;
+}
+
+/* Call to action section */
+.call-to-action{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box{
+    height: 150px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 7px;
+
+}
+
+.sign-up-box .text .darker{
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.sign-up-box .text .light{
+    color: #F9FAF8;
+    font-size: 15px;
+}
+
+.sign-up-box button{
+    width: 120px;
+    height: 30px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+/* copyright */
+.copyright{
+    background-color: #1F2937;
+    height: 80px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
