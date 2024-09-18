@@ -9,14 +9,38 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
 /* Styles for the header */
 .header{
-    padding: 25px 400px 0px 400px;
+    
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     background-color: #1F2937;
-    height: 60px;
+    /* height: 60px; */
+    padding: 20px 30px 0px 30px
+    /* padding-left: 180px;
+    padding-right: 180px; */
+    /* flex-shrink: 1; */
    
+}
+
+.header div{
+    /* flex: 1; */
+}
+
+.links {
+    display: flex;
+}
+
+.links ul{
+    /* flex: 1; */
 }
 
 .logo{
@@ -24,31 +48,57 @@
     color: #F9FAF8;
     font-weight: 700;
     
+    /* margin-right: 80px; */
+    /* outline: 1px solid red; */
+    
+    
 }
 
 .right-links{
     display: flex;
-    gap: 35px;
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
-    
+    /* outline: 1px solid red; */
+    gap: 20px;
+    /* width: 150px; */
+
+}
+
+.right-links li{
+    /* outline: 1px solid yellow; */
+    /* width: 40px; */
+    /* flex: 1; */
 }
 
 /* Styles for this website is awesome section */
-.signup-section{
+.sign-up-section{
     background-color: #1F2937;
-    padding: 0px 400px 0px 400px;
-    height: 500px;
+    /* height: 500px; */
     display: flex;
-    gap: 80px;
+    gap: 40px;
     align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    /* outline: 1px solid red; */
+    flex: 1;
+   
+    
 }
 
 .main-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    /* outline: 1px solid red; */
+    width: 540px;
+    padding-left: 13px;
+    /* margin-left: 180px; */
+    /* flex-grow: 1; */
+   
 }
 
 .main-text h1{
@@ -74,22 +124,22 @@
 }
 
 .image-section{
-
+    /* flex: 1; */
     height:227px;
-    width: 600px;
+    width: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #e5e7eb;
     background-color: gray;
+    /* outline: 1px solid red; */
+    /* margin-right: 180px; */
+   
     
 }
 
 /* Some random information section */
-.random-info{
-    height: 500px;
-    /* background-color: black; */
-}
+
 
 .random-info h1{
     font-size: 36px;
@@ -104,6 +154,8 @@
     align-items: center;
     gap: 40px;
     padding-top: 80px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -121,33 +173,48 @@
 /* Styles for quote section */
 .quote{
     background-color: #E5E7EB;
-    height: 500px;
+    /* height: 500px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    /* gap: 10px; */
+    
+    padding: 80px 30px 80px 30px;
 }
+
+.quote-conta{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .quote .italic{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
     font-weight: 300;
+    flex: 1;
+   
 }
 
 .quote .bold{
     font-weight: 900;
-    padding-left: 550px;
+    /* padding-left: 550px; */
     font-size: 20px;
+    /* outline: 1px solid red; */
+
+    align-self: flex-end;
+    
 }
 
 /* Call to action section */
 .call-to-action{
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 60px 10px 60px 10px;
 }
 
 .sign-up-box{
@@ -158,6 +225,8 @@
     align-items: center;
     background-color: #3882f6;
     border-radius: 7px;
+    padding: 0px 5px 0px 5px;
+    
 
 }
 
@@ -165,11 +234,13 @@
     font-weight: 900;
     color: #F9FAF8;
     font-size: 20px;
+    
 }
 
 .sign-up-box .text .light{
     color: #F9FAF8;
     font-size: 15px;
+    
 }
 
 .sign-up-box button{
@@ -179,14 +250,16 @@
     background-color: #3882f6;
     border: 2px solid white;
     border-radius: 7px;
+    
 }
 
 /* copyright */
 .copyright{
     background-color: #1F2937;
-    height: 80px;
+    /* height: 80px; */
     color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px 20px 0px;
 }
